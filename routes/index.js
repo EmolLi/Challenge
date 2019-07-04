@@ -1,10 +1,6 @@
 const router = require("express").Router();
 const Game = require("../models/Game");
 
-// routes for TESTING views ==================
-// router.get("/", function(req, res) {
-//   res.render("index.ejs");
-// });
 router.post("/search", (req, res) => {
   const {
     genre, // array
